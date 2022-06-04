@@ -126,7 +126,9 @@ Assuming that [Python](https://www.python.org/) version `>=3.8` is already insta
    ```sh
    $ git clone https://github.com/henrytoone/npm-cloudflare-ip-range.git
    ```
-2. Enter your database path into  `config.toml`
+2. Make a copy of the `config.toml.example` file called `config.toml`
+   
+3. Enter your database path into  `config.toml`
    ```toml
    db_path = './database.sqlite'
    ```
