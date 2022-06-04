@@ -60,6 +60,9 @@
       </ul>
     </li>
     <li>
+      <a href="#how-it-works">How It Works</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -97,7 +100,12 @@ This script was created in an afternoon and is most likely is missing something 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## How it works
 
+The project is fairly simple and works by directly modifying the database that Nginx Proxy Manager uses.
+
+An access list called `Cloudflare` will be created which has the most recent Cloudlfare IPv4 ranges in it.
+The script can then check this list against the online IPv4 list and use it to add or remove the Cloudflare IPs from other specified lists.
 
 <!-- GETTING STARTED -->
 ## Getting Started
