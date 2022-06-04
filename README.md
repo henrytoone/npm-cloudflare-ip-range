@@ -107,7 +107,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 Assuming that [Python](https://www.python.org/) version `>=3.8` is already installed and a working setup of `Nginx Proxy Manager` is already running
 
-* requests and toml module
+* `requests` and `toml` module
   ```sh
   $ pip install -r requirements.txt
   ```
@@ -122,6 +122,7 @@ Assuming that [Python](https://www.python.org/) version `>=3.8` is already insta
    ```toml
    db_path = './database.sqlite'
    ```
+   _Note: the database path should be in the data folder where nginx proxy manager is installed_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
