@@ -105,7 +105,7 @@ This script was created in an afternoon and is most likely is missing something 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Assuming that python is already installed >= 3.8 and a working setup of Nginx Proxy Manager is already running
+Assuming that [Python](https://www.python.org/) version `>=3.8` is already installed and a working setup of `Nginx Proxy Manager` is already running
 
 * requests and toml module
   ```sh
@@ -113,8 +113,6 @@ Assuming that python is already installed >= 3.8 and a working setup of Nginx Pr
   ```
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
